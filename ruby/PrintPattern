@@ -1,0 +1,5 @@
+def multiply_string(string, n)
+  string*n
+end
+puts multiply_string('a',1)
+puts multiply_string('a',2)

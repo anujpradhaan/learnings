@@ -1,0 +1,56 @@
+
+Pushing to Just 1 SF object.
+
+{
+    'lead' : {
+        ’name’ : ‘Leads’
+        ‘allowed-fields’ :[
+            ‘fields1’, 
+            ‘fields2’, 
+            ‘fields3’, 
+        ],
+        ‘mapping’ : {
+            '$.key1.key2' : 'salesforce_field'
+        }
+    }
+}
+
+#Pushing to multiple SF Objects 
+{
+    'lead' : {
+        ’name’ : ‘Leads’,
+        ‘allowed-fields’ : [
+            ‘fields1’, 
+            ‘fields2’, 
+            ‘fields3’, 
+        ],
+        'mapping' : {
+            '$.key1.key2' : 'salesforce_field'
+        }
+    }, 
+    'application' : {
+        'name'  : 'Order',
+        'allowed-fields’ : [
+            ‘fields1’, 
+            ‘fields2’, 
+            ‘fields3’, 
+        ],
+        'mapping' : {
+            '$.key1.key2' : 'salesforce_field'
+        }
+    }
+}
+
+1. Name would be the Name of the object on SF.
+2. allowed-fields will be the list of SF fields which are allowed 
+that particular object. 
+3. Mapping would help in figuring out which JSON key would go in which SF field. 
+4. Give a name to every mapping so that we can give this to other product teams for keeping the correct mapping.
+
+
+Challenges: 
+1. How to store linked object. 
+2. How to type cast data in case the data type changes in json. 
+3. How flat can we keep the structures of input as well as output json.
+4. Validation
+5. Making a random test call to validate the schema.

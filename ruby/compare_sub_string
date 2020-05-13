@@ -1,0 +1,6 @@
+def compare_string(string)
+  string[0,2] == 'if'
+end
+
+puts compare_string('fi')
+puts compare_string('if')

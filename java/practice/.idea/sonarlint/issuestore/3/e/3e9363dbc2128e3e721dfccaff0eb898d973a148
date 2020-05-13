@@ -1,0 +1,7 @@
+
+U
+squid:S106%"9Replace this use of System.out or System.err by a logger.(¨ò³8 ¤ò“ì-
+V
+squid:S106$"9Replace this use of System.out or System.err by a logger.(“¿Â8 ¤ò“ì-
+1squid:S1220""Move this file to a named package.
+ysquid:S00115"ZRename this constant name to match the regular expression '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'.(€ÓÅŸ8 ¤ò“ì-

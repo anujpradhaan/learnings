@@ -1,0 +1,171 @@
+INFO  time: initialize in 0.31s
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/PrintList.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+Nov 21, 2019 10:43:19 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 21, 2019 10:43:19 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 21, 2019 10:43:20 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 21, 2019 10:43:20 PM scala.meta.internal.pc.Completions completionPosition
+SEVERE: null
+java.lang.NullPointerException
+	at scala.meta.internal.pc.Completions$CompletionPosition$Override.<init>(Completions.scala:1034)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe(Completions.scala:472)
+	at scala.meta.internal.pc.Completions.completionPositionUnsafe$(Completions.scala:393)
+	at scala.meta.internal.pc.MetalsGlobal.completionPositionUnsafe(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.Completions.completionPosition(Completions.scala:385)
+	at scala.meta.internal.pc.Completions.completionPosition$(Completions.scala:370)
+	at scala.meta.internal.pc.MetalsGlobal.completionPosition(MetalsGlobal.scala:23)
+	at scala.meta.internal.pc.CompletionProvider.safeCompletionsAt(CompletionProvider.scala:403)
+	at scala.meta.internal.pc.CompletionProvider.completions(CompletionProvider.scala:47)
+	at scala.meta.internal.pc.ScalaPresentationCompiler.$anonfun$complete$1(ScalaPresentationCompiler.scala:87)
+	at scala.meta.internal.pc.CompilerAccess.withSharedCompiler(CompilerAccess.scala:120)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$withInterruptableCompiler$1(CompilerAccess.scala:77)
+	at scala.meta.internal.pc.CompilerAccess.$anonfun$onCompilerJobQueue$1(CompilerAccess.scala:198)
+	at scala.meta.internal.pc.CompilerJobQueue$Job.run(CompilerJobQueue.scala:73)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+INFO  shutting down Metals
+INFO  time: initialize in 0.76s
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+INFO  no build target: using presentation compiler with only scala-library
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ReadFromConsole.scala
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[<error>]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 48)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[<error>]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 55)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[<error>]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 48)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[<error>]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 49)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[String]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 53)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[String]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 53)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[String]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 53)
+something's wrong: no file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala in Array[String]RangePosition(file:///Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala, 40, 40, 53)
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+Nov 22, 2019 10:40:51 PM scala.meta.internal.pc.CompletionProvider expected$1
+WARNING: String index out of range: -1
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+WARN  no build target: /Users/anuj.kumar/upgrad/learnings/scala/ClassTutorial.scala
+Nov 23, 2019 10:31:24 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  shutting down Metals
+INFO  time: initialize in 0.62s
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+INFO  shutting down Metals
+INFO  time: initialize in 0.34s
+WARN  no build tool detected in workspace '/Users/anuj.kumar/upgrad/learnings/scala'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+May 05, 2020 10:53:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+May 05, 2020 10:53:04 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTraceNotification
+INFO  shutting down Metals

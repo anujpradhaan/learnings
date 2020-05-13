@@ -1,0 +1,13 @@
+# first_name = gets.chomp
+# last_name = gets.chomp
+#
+# puts "#{last_name.reverse} #{first_name.reverse}"
+
+marks = {
+    "A" => 10,
+    "B" => 20
+}
+
+total_marks=0
+marks.each {|key,value| total_marks+=value }
+puts total_marks
