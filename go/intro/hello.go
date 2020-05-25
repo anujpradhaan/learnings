@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 	"log"
-	"net/http"
-	"rest-api/repository/userprofile"
 
-	_ "github.com/go-sql-driver/mysql"
+	"intro/mystring"
+	"intro/packer"
+	"net/http"
 
 	"github.com/gorilla/mux"
 )
@@ -36,8 +36,7 @@ func handleRequests() {
 }
 
 func main() {
-	userprofile.ConnectDB()
-	userprofile.SelectQuery()
-	userprofile.SingleRow()
-	handleRequests()
+	fmt.Println("Hello")
+	fmt.Println(packer.GetNumber())
+	fmt.Println(mystring.GetString())
 }
