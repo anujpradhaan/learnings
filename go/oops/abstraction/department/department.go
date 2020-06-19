@@ -8,7 +8,7 @@ func (d department) GetDepartmentName() string {
 	return d.name
 }
 
-func Random(n string) department {
+func New(n string) department {
 	return department{
 		name: n,
 	}

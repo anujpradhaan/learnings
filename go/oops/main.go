@@ -2,8 +2,8 @@ package main
 
 import (
 	"fmt"
-	"oops/department"
-	"oops/employee"
+	"oops/abstraction/department"
+	"oops/abstraction/employee"
 )
 
 func main() {
